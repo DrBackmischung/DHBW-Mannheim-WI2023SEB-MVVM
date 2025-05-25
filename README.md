@@ -1,21 +1,14 @@
 # DHBW-Mannheim-WI2023SEB-MVVM
 
-To-Do-Anwendung mit MVVM-Architektur in JavaScript.
+**Model**:
+- Datenmodell, Geschäftslogik
 
-## ▶️ Starten
+**View**:
+- Benutzeroberfläche
 
-```bash
-npm install
-npm run start
-```
+**ViewModel**:
+- Bindet Model-Daten an die View (Datenbindung)
 
-## 📦 Struktur
-
-- `Model.js`: Datenobjekte
-- `ViewModel.js`: Verbindet Logik und Zustand
-- `View.js`: Bindet ViewModel automatisch
-
-## 💡 Features
-
-- Automatische UI-Aktualisierung bei Änderung
-- Aufgaben verwalten, Status toggeln, löschen
+**Architektur-Erklärung:**
+- ViewModel ist Vermittler, View bleibt einfach.
+- Besonders geeignet für Frameworks mit Datenbindung (z.B. Angular, React).
